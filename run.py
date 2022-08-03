@@ -29,7 +29,12 @@ def weekly_playlist_welcome():
     print(Back.YELLOW + Fore.BLUE + 'This is the weekly music playlist!\n')
     print(Fore.GREEN + Style.BRIGHT + 'Listening to music is life.')
     print(Fore.GREEN + Style.BRIGHT + 'Use this playlist to check out songs')
-    print(Fore.GREEN + Style.BRIGHT + 'and add your own songs to any week.')
+    print(Fore.GREEN + Style.BRIGHT + 'and add your own songs to any week.\n')
+
+    print("Enter '1' to choose which week's playlist you would")
+    print("like to view.\n")
+    print("Enter '2' to choose which week's playlist you would")
+    print("like to add songs to.\n")
 
 
 def main():
