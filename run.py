@@ -19,14 +19,24 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('weekly_playlist')
 
+
 def weekly_playlist_welcome():
     """
     Introducing and informing the user about
     the application.
     """
-    print(Back.YELLOW + 'Welcome music lovers to the weekly music playlist!\n')
-    print(Fore.GREEN + 'Finding and listening to music is life.')
-    print(Fore.GREEN + 'Use this playlist to check out songs for each week')
+    print(Back.YELLOW + Fore.BLUE + 'Welcome music lovers!\n')
+    print(Back.YELLOW + Fore.BLUE + 'This is the weekly music playlist!\n')
+    print(Fore.GREEN + Style.BRIGHT + 'Listening to music is life.')
+    print(Fore.GREEN + Style.BRIGHT + 'Use this playlist to check out songs')
     print(Fore.GREEN + Style.BRIGHT + 'and add your own songs to any week.')
 
 
+def main():
+    """
+    Main function is used to run the program
+    """
+    weekly_playlist_welcome()
+
+
+main()
