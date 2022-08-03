@@ -37,6 +37,21 @@ def weekly_playlist_welcome():
     print("like to add songs to.\n")
 
 
+def view_or_add():
+    """
+    The route the user takes to either view songs from the playlist or
+    add songs to the playlist.
+    """
+    route = input("Please choose either (1 to view) or (2 to add)\n")
+    if route == '1':
+        view_playlist()
+    elif route == '2':
+        add_songs()
+    else:
+        print("Entry incorrect. Need to enter 1 or 2\n")
+        return view_or_add()
+
+
 def main():
     """
     Main function is used to run the program
