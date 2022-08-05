@@ -52,31 +52,27 @@ def view_or_add():
         return view_or_add()
 
 
-def view_playlist():
+def view_songs():
     """
-    This function will reveal each of the week's playlist they can choose from
+    This function will show all the songs on the playlist which
     """
-    print("\n Choose which week's playlist you would like to view")
-    print("Please choose one of the week's number: '1' '2' '3' '4'\n")
+    list_of_lists = worksheet.get_all_values()
 
-    choice = input("Enter (1) or (2) or (3) or (4) to choose week playlist\n")
 
-    if choice == "1":
-        playlist_songs('week_one')
-    elif choice == "2":
-        playlist_songs('week_two')
-    elif choice == "3":
-        playlist_songs('week_three')
-    elif choice == "4":
-        playlist_songs('week_four')
-    else:
-        
+
+def add_songs():
+    """
+    This function will allow users to add and update songs 
+    to the playlist
+    """
+
 
 def main():
     """
     Main function is used to run the program
     """
     weekly_playlist_welcome()
+    view_or_add()
 
 
 main()
