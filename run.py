@@ -44,7 +44,7 @@ def view_or_add():
     """
     route = input("Please choose either (1 to view) or (2 to add)\n")
     if route == '1':
-        view_playlist()
+        view_songs()
     elif route == '2':
         add_songs()
     else:
