@@ -43,6 +43,9 @@ def view_or_add():
     add songs to the playlist.
     """
     route = input("Please choose either (1 to view) or (2 to add)\n")
+
+    print("You selected: " + route)
+    
     if route == '1':
         view_songs()
     elif route == '2':
