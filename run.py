@@ -7,6 +7,7 @@ from google.oauth2.service_account import Credentials
 import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
+from tabulate import tabulate
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",
@@ -46,20 +47,24 @@ def view_or_add():
 
     print("You selected: " + route)
     
-    if route == '1':
+    if route == "1":
         view_songs()
-    elif route == '2':
-        add_songs()
-    else:
-        print("Entry incorrect. Need to enter 1 or 2\n")
-        return view_or_add()
-
-
+    elif route == "2":
+        top_5 = SHEET.worksheet("tunes").get("top_5")
+        print(top_5)
+        SHEET.worksheet("tunes").update("test_range", top_5)
+    elif route == "3"
+    
+        
+    
+        
 def view_songs():
     """
     This function will show all the songs on the playlist which
     """
-    list_of_lists = worksheet.get_all_values()
+    list_of_lists = SHEET.worksheet("tunes").get_all_values()
+    print(tabulate(list_of_lists))
+    return tabulate(list_of_lists)
 
 
 
@@ -67,6 +72,7 @@ def add_songs():
     """
     This function will allow users to add and update songs 
     to the playlist
+    
     """
 
 
@@ -74,7 +80,7 @@ def main():
     """
     Main function is used to run the program
     """
-    weekly_playlist_welcome()
+    # weekly_playlist_welcome()
     view_or_add()
 
 
