@@ -51,7 +51,6 @@ def view_or_add():
         view_songs()
     elif route == "2":
         submit_song()
-        
 
 
 def view_songs():
@@ -60,7 +59,7 @@ def view_songs():
     """
     list_of_lists = SHEET.worksheet("tunes").get_all_values()
     print(tabulate(list_of_lists))
-    return quit_or_repeat()
+
 
 
 def add_songs():
