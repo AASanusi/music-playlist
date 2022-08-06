@@ -50,7 +50,8 @@ def view_or_add():
     if route == "1":
         view_songs()
     elif route == "2":
-        su
+        submit_song()
+        
 
 
 def view_songs():
