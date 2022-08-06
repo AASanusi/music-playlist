@@ -61,6 +61,22 @@ def view_songs():
     print(tabulate(list_of_lists))
 
 
+def quit_or_repeat():
+    """
+    Start program again to the main menu or quit the program
+    """
+    print("Please select option '1' if you would like to go back to main menu") 
+    print("Or option '2' if you would like to quit") 
+
+    route = input("Please choose either (1 to start again) or (2 to quit)")
+
+    print("You selected: " + route)
+    
+    if route == "1":
+        return weekly_playlist_welcome()
+    elif route == "2":
+        print("Thank you for listening")
+
 
 def add_songs():
     """
