@@ -8,3 +8,54 @@ Weekly Playlist has been created for users to view and add songs to the playlist
 
 [Access Weekly Playlist Here]()
 
+
+## Contents
+- [User Experience (UX)](#User-Experience-UX)
+   - [Aim](#Aim)
+   - [Target Audience](#Target-Audience)
+   - [User Stories](#User-Stories)
+      - [First Time User](#First-Time-User)
+      - [Revisiting User](#Revisiting-User)
+
+- [Design](#Design)
+   - [Colour Scheme](#Colour-Scheme)
+   - [Typography](#Typography)
+   - [Imagery](#Imagery)
+
+- [Features](#Features)
+   - [Existing Features](#Existing-Features)
+      - [Navigation Bar](#Navigation-Bar)
+      - [We love Fresh Face Remedies Section](#We-love-Fresh-Face-Remedies-Section)
+      - [Testimonials Section](#Testimonials-Section)
+      - [The Footer](#The-Footer)
+      - [Remedies Page](#Remedies-Page)
+      - [Skin Chart Page](#Skin-Chart-Page)
+      - [Contact Us Page](#Contact-Us-Page)
+      - [Features Left To Implement](#Features-Left-To-Implement)
+
+- [Technologies Used](#Technologies-Used)
+   - [Languages Used](#Languages-Used)
+   - [Frameworks, Libraries And Programs Used](#Frameworks-Libraries-And-Programs-Used)
+      - [Balsamiq](#Balsamiq)
+      - [Google Fonts](#Google-Fonts)
+      - [Font Awesome](#Font-Awesome)
+      - [Git](#Git)   
+      - [Gitpod](#Gitpod)
+      - [Github](#Github)
+      - [Gitpod Full Template](#Gitpod-Full-Template)
+
+- [Testing](#Testing)
+  - [Bugs Encountered And Solutions](#Bugs-Encountered-And-Solutions)
+  - [Validator Testing](#Validator-Testing)
+     - [HTML](#HTML)
+     - [CSS](#CSS)
+     - [Lighthouse](#Lighthouse-Testing)     
+  - [Unfixed Bugs](#Unfixed-Bugs)
+
+- [Deployment](#Deployment)
+
+- [Credits](#Credits)
+   - [Code](#Code)
+   - [Content](#Content)
+   - [Media](#Media)
+   - [Acknowledgments](#Acknowledgments)
