@@ -37,6 +37,8 @@ def weekly_playlist_welcome():
     print("Please select option '2' if you would like to")
     print("enter in a new song to the playlist.\n")
 
+    return view_or_add()
+
 
 def view_or_add():
     """
@@ -46,7 +48,6 @@ def view_or_add():
     route = input("Please choose either (1 to view) or (2 to add)\n")
 
     print("You selected: " + route)
-    
     if route == "1":
         view_songs()
     elif route == "2":
@@ -59,19 +60,19 @@ def view_songs():
     """
     list_of_lists = SHEET.worksheet("tunes").get_all_values()
     print(tabulate(list_of_lists))
+    return quit_or_repeat()
 
 
 def quit_or_repeat():
     """
     Start program again to the main menu or quit the program
     """
-    print("Please select option '1' if you would like to go back to main menu") 
-    print("Or option '2' if you would like to quit") 
+    print("Please select option '1' if you would like to go back to main menu")
+    print("Or option '2' if you would like to quit")
 
     route = input("Please choose either (1 to start again) or (2 to quit)")
 
-    print("You selected: " + route)
-    
+    print("You selected: " + route)    
     if route == "1":
         return weekly_playlist_welcome()
     elif route == "2":
@@ -82,7 +83,6 @@ def add_songs():
     """
     This function will allow users to add and update songs 
     to the playlist
-    
     """
 
 
@@ -93,3 +93,4 @@ def main():
     weekly_playlist_welcome()
     # view_or_add()
 
+main()
