@@ -59,3 +59,19 @@ Weekly Playlist has been created for users to view and add songs to the playlist
    - [Content](#Content)
    - [Media](#Media)
    - [Acknowledgments](#Acknowledgments)
+
+## User Experience (UX)
+### Aim
+The aim of this program is to provide users with new music and to have the option to add to the list of songs in the playlist.
+### Target Audience
+This was created for all musice lovers to listen to music and share music. It's for people who would like to discover new songs and add songs to it to share with other music lovers who would like to access the playlist too.
+### User Stories
+- #### First Time Users
+  - As a first time user, I want to be able to have options to either view or add songs to the playlist.
+  - As a first time user, I want to be able to view songs on the playlist.
+  - As a first time user, I want to be able to go back to the main menu to revist the options.
+  - As a first time user, I want to be able to add songs to the playlist.
+- #### Revisiting Users
+  - As a revisiting user, I want to be able view the updated songs on the playlist from the last time visited
+  - As a revisiting user, I want to be able to add more songs to keep updating the playlist
+  - As a revisiting user, I want to be able to exit the program after viewing or adding songs.
