@@ -32,10 +32,10 @@ def weekly_playlist_welcome():
     print(Fore.GREEN + Style.BRIGHT + 'Use this playlist to check out songs')
     print(Fore.GREEN + Style.BRIGHT + 'and add your own songs to any week.\n')
 
-    print("Please select option '1' if you would like to\n")
-    print("view this weeks playlist\n")
-    print("Please select option '2' if you would like to")
-    print("enter in a new song to the playlist.\n")
+    print("Enter '1' to choose which week's playlist you would")
+    print("like to view.\n")
+    print("Enter '2' to choose which week's playlist you would")
+    print("like to add songs to.\n")
 
 
 def view_or_add():
@@ -50,16 +50,22 @@ def view_or_add():
     if route == "1":
         view_songs()
     elif route == "2":
-        su
-
-
+        top_5 = SHEET.worksheet("tunes").get("top_5")
+        print(top_5)
+        SHEET.worksheet("tunes").update("test_range", top_5)
+    elif route == "3"
+    
+        
+    
+        
 def view_songs():
     """
     This function will show all the songs on the playlist which
     """
     list_of_lists = SHEET.worksheet("tunes").get_all_values()
     print(tabulate(list_of_lists))
-    return quit_or_repeat()
+    return tabulate(list_of_lists)
+
 
 
 def add_songs():
@@ -74,6 +80,8 @@ def main():
     """
     Main function is used to run the program
     """
-    weekly_playlist_welcome()
-    # view_or_add()
+    # weekly_playlist_welcome()
+    view_or_add()
 
+
+main()
