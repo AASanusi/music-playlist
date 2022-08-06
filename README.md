@@ -77,3 +77,8 @@ This was created for all musice lovers to listen to music and share music. It's 
 ![Screenshot of lucid chart for the programme]()
 
 ## Features
+The features on this application was created to provide users with options to view songs or add songs to the playlist.
+
+### Existing Features
+- #### Welcome
+  - This is the introductory section that welcomes the user to the application. It provide them with information about the application and how to go about using it. It provides them the options to either view songs or add songs to the playlist.
