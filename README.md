@@ -171,10 +171,21 @@ The open source developer environment used to write and edit code was Gitpod. Gi
 
 ## Credits
 ### Code
-
+- [Grepper](https://www.codegrepper.com/index.php)
+  - Used to help write expressions.
+- [Google Sheets for Developers](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/cells)
+  - Used to help with pushing and pulling data from Google Sheet.
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
+  - Used for the system exit code for the application.
 
 ### Content
+- Contents on this application were written by the developer.
+- Love Sandwiches walkthrough video was used to deploy the application on Heroku.
+- [Jie Jenn](https://www.youtube.com/watch?v=txfiwEjb7sk)
+  - Used to understand Google Sheets API in Python.
 
+### Media
+- All the songs on the music playlist was taken from my personal playlist.
 
 ### Acknowledgments
 - #### Mentor
