@@ -90,14 +90,27 @@ def submit_song():
     This function will allow users to add and update songs
     to the playlist
     """
-    artist = input(Fore.CYAN + "\nPlease input the artist's name\n")
-    result = capitalize_each_word(artist)
-    print(result)
 
-    song = input(Fore.CYAN + "\n Please input the song name\n")
-    result = capitalize_each_word(song)
-    print(result)
-    SHEET.worksheet("tunes").append_row([artist, song])
+    artist = None
+    song = None
+
+    while True:
+        artist = input(Fore.CYAN + "\nPlease input the artist's name\n")
+
+        if artist.replace(' ', '').isalpha():
+            break
+        else:
+            print("Invalid! Please alphabet characters only")
+
+    while True:
+        song = input(Fore.CYAN + "\nPlease input the song name\n")
+
+        if song.replace(' ', '').isalpha():
+            break
+        else:
+            print("Invalid! Please alphabet characters only")
+
+    SHEET.worksheet("tunes").append_row([artist.title(), song.title()])
 
     print("Updating playlist now.....\n")
 
@@ -105,20 +118,7 @@ def submit_song():
     return quit_or_repeat()
 
 
-list_of_words = []
-
-
-def capitalize_each_word(original_str):
-    result = ""
-    for elem in list_of_words:
-        if len(result) > 0:
-            result = result + " " + elem.strip().capitalize()
-        else:
-            result = elem.capitalize()
-    if not result:
-        return original_str
-    else:
-        return result
+submit_song()
 
 
 def main():
