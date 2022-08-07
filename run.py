@@ -32,10 +32,10 @@ def weekly_playlist_welcome():
     print(Fore.GREEN + Style.BRIGHT + 'Use this playlist to check out songs')
     print(Fore.GREEN + Style.BRIGHT + 'and add your own songs to any week.\n')
 
-    print("Please select option '1' if you would like to\n")
-    print("view this weeks playlist\n")
-    print("Please select option '2' if you would like to")
-    print("enter in a new song to the playlist.\n")
+    print(Fore.CYAN + "Please select option '1' if you would like to\n")
+    print(Fore.CYAN + "view this weeks playlist\n")
+    print(Fore.MAGENTA + "Please select option '2' if you would like to")
+    print(Fore.MAGENTA + "enter in a new song to the playlist.\n")
 
     return view_or_add()
 
@@ -52,6 +52,9 @@ def view_or_add():
         view_songs()
     elif route == "2":
         submit_song()
+    else:
+        print(Back.RED + Fore.WHITE + "\nIncorrect value. Must be 1 or 2.\n")
+        return view_or_add()
 
 
 def view_songs():
@@ -70,15 +73,15 @@ def quit_or_repeat():
     print("Please select '1' if you would like to go back to main menu\n")
     print("Or '2' if you would like to quit\n")
 
-    route = input("Please choose either (1 to start again) or (2 to quit)")
+    route = input("Please choose either (1 to repeat) or (2 to quit)")
 
     print("You selected: " + route)
     if route == "1":
         weekly_playlist_welcome()
     elif route == "2":
-        sys.exit("\nThank you for stopping by!")
+        sys.exit(Back.RED + Fore.WHITE + "\nThank you for stopping by!")
     else:
-        print("\nIncorrect value. Must be 1 or 2.\n")
+        print(Back.RED + Fore.WHITE + "\nIncorrect value. Must be 1 or 2.\n")
         return quit_or_repeat()
 
 
@@ -87,15 +90,35 @@ def submit_song():
     This function will allow users to add and update songs
     to the playlist
     """
-    artist = input("\n Please input the artist's name\n")
+    artist = input(Fore.CYAN + "\nPlease input the artist's name\n")
+    result = capitalize_each_word(artist)
+    print(result)
 
-    song = input("\n Please input the song name\n")
+    song = input(Fore.CYAN + "\n Please input the song name\n")
+    result = capitalize_each_word(song)
+    print(result)
     SHEET.worksheet("tunes").append_row([artist, song])
 
     print("Updating playlist now.....\n")
 
-    print("Playlist has been updated!\n")
+    print(Back.YELLOW + Fore.BLUE + "Playlist has been updated!\n")
     return quit_or_repeat()
+
+
+list_of_words = []
+
+
+def capitalize_each_word(original_str):
+    result = ""
+    for elem in list_of_words:
+        if len(result) > 0:
+            result = result + " " + elem.strip().capitalize()
+        else:
+            result = elem.capitalize()
+    if not result:
+        return original_str
+    else:
+        return result
 
 
 def main():
