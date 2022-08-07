@@ -18,16 +18,16 @@ SCOPE = [
 CREDS = Credentials.from_service_account_file('creds.json')
 SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
-SHEET = GSPREAD_CLIENT.open('weekly_playlist')
+SHEET = GSPREAD_CLIENT.open('music_playlist')
 
 
-def weekly_playlist_welcome():
+def music_playlist_welcome():
     """
     Introducing and informing the user about
     the application.
     """
     print(Back.YELLOW + Fore.BLUE + 'Welcome music lovers!\n')
-    print(Back.YELLOW + Fore.BLUE + 'This is the weekly music playlist!\n')
+    print(Back.YELLOW + Fore.BLUE + 'This is the music playlist!\n')
     print(Fore.GREEN + Style.BRIGHT + 'Listening to music is life.')
     print(Fore.GREEN + Style.BRIGHT + 'Use this playlist to check out songs')
     print(Fore.GREEN + Style.BRIGHT + 'and add your own songs to any week.\n')
@@ -77,7 +77,7 @@ def quit_or_repeat():
 
     print("You selected: " + route)
     if route == "1":
-        weekly_playlist_welcome()
+        music_playlist_welcome()
     elif route == "2":
         sys.exit(Back.RED + Fore.WHITE + "\nThank you for stopping by!")
     else:
@@ -118,14 +118,11 @@ def submit_song():
     return quit_or_repeat()
 
 
-submit_song()
-
-
 def main():
     """
     Main function is used to run the program
     """
-    weekly_playlist_welcome()
+    music_playlist_welcome()
     view_or_add()
 
 
