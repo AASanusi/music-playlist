@@ -22,10 +22,9 @@ Weekly Playlist has been created for users to view and add songs to the playlist
 - [Features](#Features)
    - [Existing Features](#Existing-Features)
       - [Welcome Section](#Welcome-Section)
-      - [Viewing Songs On Playlist Section](#Viewing-Songs-On-Playlist-Section)
-      - [Add Artist Name Section](#Add-Artist-Name-Section)
-      - [Add Song Name Section](#Add-Song-Name-Section)
-      - [Restart-program](#Restart-program)
+      - [View Songs On Playlist Section](#View-Songs-On-Playlist-Section)
+      - [Submit Songs To Playlist Section](#Submit-Songs-Section)
+      - [Repeat Or Quit Program](#Repeat-Or-Quit-Program)
       - [Features Left To Implement](#Features-Left-To-Implement)
 
 - [Technologies Used](#Technologies-Used)
@@ -36,7 +35,7 @@ Weekly Playlist has been created for users to view and add songs to the playlist
       - [Git](#Git)   
       - [Gitpod](#Gitpod)
       - [Github](#Github)
-      - [Gitpod Python Full Template](#Gitpod-Python-Full-Template)
+      - [Gitpod Python Essentials Template](#Gitpod-Python-Essentials-Template)
       - [Heroku](#Heroku)
 
 - [Testing](#Testing)
@@ -81,7 +80,32 @@ The features on this application was created to provide users with options to vi
 
 ### Existing Features
 - #### Welcome
-This is the introductory section that welcomes the user to the application. It provide them with information about the application and how to go about using it. It provides them the options to either view songs or add songs to the playlist.
+  - This is the introductory section that welcomes the user to the application. It provide them with information about the application and how to go about using it. It provides them the options to either view songs or add songs to the playlist.
+
+![Screenshot of the welcome section of the program]()
+
+- ### View Songs On Playlist  
+  - This is the section where user chooses to view the songs on the playlist. This section showcases all the songs on the playlist for users to copy.
+
+![Screenshot of the welcome section of the program]()
+
+- ### Submit Songs To Playlist Section]
+  - This is the submit section that allows the users to submit songs via inputting the artist name and song name.
+  - There's an option to add artist name they would like to submit to the playlist.
+  - There's an option to add song name they would like to submit to the playlist.
+
+
+![Screenshot of the welcome section of the program]()
+
+- ### Repeat Or Quit Program
+  - Once the user has either viewed or added songs to the playlist, they are prompted to either repeat or quit the program.
+  - This gives the user the option to either start again from the main menu or to quit the program.
+
+![Screenshot of the welcome section of the program]()
+
+## Features Left To Implement
+- To add a function that actually plays the songs on the playlist when viewing the playlist.
+- To automatically update the playlist using a certified radio weekly chart so that new music are always added to it alongside with users submission.
 
 
 ## Technologies Used
@@ -91,7 +115,81 @@ This is the introductory section that welcomes the user to the application. It p
  - [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
  - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - This was provided in the Code Institute template
  - [CSS](https://en.wikipedia.org/wiki/CSS) - This was provided in the Code Institute template
- - [HTML](https://en.wikipedia.org/wiki/HTML) - This was provided in the Code Institute template
+ - [HTML5](https://en.wikipedia.org/wiki/HTML) - This was provided in the Code Institute template
 
 ### APIs and Libraries
+ - [Google Drive](https://developers.google.com/drive/api)
+ - [Google Worksheet](https://developers.google.com/sheets/api)
+ - [Sys](https://docs.python.org/3/library/sys.html)
+ - [Tabulate](https://pypi.org/project/tabulate/)
+ - [Google Auth](https://google-auth.readthedocs.io/en/master/index.html)
+ - [Gspread](https://docs.gspread.org/en/latest/)
+ - [Colorama](https://pypi.org/project/colorama/)
+
+ ### Frameworks, Libraries And Programs Used
+
+1. #### [Lucid:](https://lucid.co/)
+  - Lucid Chart was used to create the flow and the logic of the application before coding it.
+
+2. #### [Git:](https://git-scm.com/)
+  - Git was used in the Gitpod terminal to add, commit and push code to Github.
+
+3. #### [Gitpod:](https://www.gitpod.io/)
+  - Gitpod is the Integrated Developer Environment used to code this project.
+
+4. #### [Github:](https://github.com/)
+  - Github was used to hold and keep the pushed codes by Git and store projects.
+
+5. #### [Gitpod Python Essentials Template:](https://github.com/Code-Institute-Org/python-essentials-template)
+  - Gitpod Python Essentials Template was provided by code institute and it consisted of all the relevant tools needed to code this program.
+
+6. #### [Heroku](https://id.heroku.com/login)
+  - Heroku was used to deploy the project to which users can access.
+
+## Testing
+
+
+### Bugs Encountered And Solutions:
+ - #### Bugs
+
+ - #### Solution
+
+
+### Validator Testing
+ - #### PEP8 Online
+
+![Screenshot of using PEP8 Online to validate code]()
+
+### Unfixed Bugs
+All bugs were fixed before the submission of this project.
+
+## Deployment
+The open source developer environment used to write and edit code was Gitpod. Git was used to add, commit and push code to Github. Github is the hosting used to store pushed codes by Git. Heroku was used to deploy the live version of the project.
+
+- Below are the steps followed to deploy site to Heroku:
+  - 
+
+## Credits
+### Code
+
+
+### Content
+
+
+### Acknowledgments
+- #### Mentor
+  - Thanks to my Mentor for providing me with ideas for project.
+  - Thanks to my mentor for the continous feedback during our meetings.
+
+
+- #### Tutor Support Team
+  - Thanks to Sean for helping me to sort out the bug that stopped the inputs to be pushed to my worksheet.
+
+
+- #### Fellow classmates/aluminis on Slack
+  - Thanks to my fellow classmate Lauren-Nicole for helping bounce ideas around and to help me write the code.
+  - Thanks to Mat for helping me understanding the basic structures to code on Python.
+  - Thanks to Ger for teaching me how to write some of the code that wasn't working for me.
+  - Thanks to Frankie for the ample amount of resources to help aid me with my project.
+ 
 
