@@ -27,13 +27,13 @@ def music_playlist_welcome():
     the application.
     """
     print(Back.YELLOW + Fore.WHITE + 'WELCOME MUSIC LOVERS!')
-    print(Back.YELLOW + Fore.WHITE + 'TO THE BEST Music Playlist EVER!\n')
+    print(Back.YELLOW + Fore.WHITE + 'TO THE BEST "MUSIC PLAYLIST" EVER!\n')
     print(Fore.GREEN + Style.BRIGHT + 'Listening to music is life.')
     print(Fore.GREEN + Style.BRIGHT + 'Use this playlist to check out songs')
-    print(Fore.GREEN + Style.BRIGHT + 'and add your own songs to any week.\n')
+    print(Fore.GREEN + Style.BRIGHT + 'and add your own songs.\n')
 
     print(Fore.CYAN + "Please select option '1' if you would like to\n")
-    print(Fore.CYAN + "view this weeks playlist\n")
+    print(Fore.CYAN + "view the music playlist\n")
     print(Fore.MAGENTA + "Please select option '2' if you would like to")
     print(Fore.MAGENTA + "enter in a new song to the playlist.\n")
 
