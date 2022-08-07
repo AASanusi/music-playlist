@@ -81,4 +81,17 @@ The features on this application was created to provide users with options to vi
 
 ### Existing Features
 - #### Welcome
-  - This is the introductory section that welcomes the user to the application. It provide them with information about the application and how to go about using it. It provides them the options to either view songs or add songs to the playlist.
+This is the introductory section that welcomes the user to the application. It provide them with information about the application and how to go about using it. It provides them the options to either view songs or add songs to the playlist.
+
+
+## Technologies Used
+
+### Languages Used
+
+ - [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+ - [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - This was provided in the Code Institute template
+ - [CSS](https://en.wikipedia.org/wiki/CSS) - This was provided in the Code Institute template
+ - [HTML](https://en.wikipedia.org/wiki/HTML) - This was provided in the Code Institute template
+
+### APIs and Libraries
+
