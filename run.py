@@ -26,8 +26,8 @@ def music_playlist_welcome():
     Introducing and informing the user about
     the application.
     """
-    print(Back.YELLOW + Fore.WHITE + 'Welcome music lovers!\n')
-    print(Back.YELLOW + Fore.WHITE + 'This is the music playlist!\n')
+    print(Back.YELLOW + Fore.WHITE + 'WELCOME MUSIC LOVERS!')
+    print(Back.YELLOW + Fore.WHITE + 'TO THE BEST Music Playlist EVER!\n')
     print(Fore.GREEN + Style.BRIGHT + 'Listening to music is life.')
     print(Fore.GREEN + Style.BRIGHT + 'Use this playlist to check out songs')
     print(Fore.GREEN + Style.BRIGHT + 'and add your own songs to any week.\n')
