@@ -1,6 +1,7 @@
 """
 Import APIs and colorama library
 """
+import sys
 from tabulate import tabulate
 import gspread
 from google.oauth2.service_account import Credentials
@@ -73,9 +74,12 @@ def quit_or_repeat():
 
     print("You selected: " + route)
     if route == "1":
-        return weekly_playlist_welcome()
+        weekly_playlist_welcome()
     elif route == "2":
-        print("Thank you for listening")
+        sys.exit("\nThank you for stopping by!")
+    else:
+        print("\nIncorrect value. Must be 1 or 2.\n")
+        return quit_or_repeat()
 
 
 def submit_song():
