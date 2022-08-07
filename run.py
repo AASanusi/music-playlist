@@ -26,8 +26,8 @@ def music_playlist_welcome():
     Introducing and informing the user about
     the application.
     """
-    print(Back.YELLOW + Fore.BLUE + 'Welcome music lovers!\n')
-    print(Back.YELLOW + Fore.BLUE + 'This is the music playlist!\n')
+    print(Back.YELLOW + Fore.WHITE + 'Welcome music lovers!\n')
+    print(Back.YELLOW + Fore.WHITE + 'This is the music playlist!\n')
     print(Fore.GREEN + Style.BRIGHT + 'Listening to music is life.')
     print(Fore.GREEN + Style.BRIGHT + 'Use this playlist to check out songs')
     print(Fore.GREEN + Style.BRIGHT + 'and add your own songs to any week.\n')
@@ -73,13 +73,13 @@ def quit_or_repeat():
     print("Please select '1' if you would like to go back to main menu\n")
     print("Or '2' if you would like to quit\n")
 
-    route = input("Please choose either (1 to repeat) or (2 to quit)")
+    route = input("Please choose either (1 to repeat) or (2 to quit)\n")
 
     print("You selected: " + route)
     if route == "1":
         music_playlist_welcome()
     elif route == "2":
-        sys.exit(Back.RED + Fore.WHITE + "\nThank you for stopping by!")
+        sys.exit(Back.RED + Fore.WHITE + "\nThank you for stopping by!\n")
     else:
         print(Back.RED + Fore.WHITE + "\nIncorrect value. Must be 1 or 2.\n")
         return quit_or_repeat()
@@ -112,9 +112,9 @@ def submit_song():
 
     SHEET.worksheet("tunes").append_row([artist.title(), song.title()])
 
-    print("Updating playlist now.....\n")
+    print(Fore.WHITE + "Updating playlist now.....\n")
 
-    print(Back.YELLOW + Fore.BLUE + "Playlist has been updated!\n")
+    print(Back.YELLOW + Fore.WHITE + "Playlist has been updated!\n")
     return quit_or_repeat()
 
 
