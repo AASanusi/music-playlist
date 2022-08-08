@@ -10,7 +10,7 @@ Music Playlist has been created for users to view and add songs to the playlist 
 
 
 ## Contents
-- [User Experience (UX)](#User-Experience-(UX))
+- [User Experience (UX)](#User-Experience-UX)
    - [Aim](#Aim)
    - [Target Audience](#Target-Audience)
    - [User Stories](#User-Stories)
@@ -23,7 +23,7 @@ Music Playlist has been created for users to view and add songs to the playlist 
    - [Existing Features](#Existing-Features)
       - [Welcome](#Welcome)
       - [View Songs On Playlist](#View-Songs-On-Playlist)
-      - [Submit Songs To Playlist](#Submit-Songs)
+      - [Submit Songs To Playlist](#Submit-Songs-To-Playlist)
       - [Repeat Or Quit Application](#Repeat-Or-Quit-Application)
       - [Exit Message](#Exit-Message)
       - [Google Worksheet](#Google-Worksheet)
