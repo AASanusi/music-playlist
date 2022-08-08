@@ -237,6 +237,7 @@ The open source developer environment used to write and edit code was Gitpod. Gi
 
 - #### Tutor Support Team
   - Thanks to Sean for helping me to sort out the bug that stopped the inputs to be pushed to my worksheet.
+  - Thanks to John for helping retrieve my README.md file after I accidentally deleted it.
 
 - #### Fellow classmates/aluminis on Slack
   - Thanks to my fellow classmate Lauren-Nicole for helping bounce ideas around and to help me write the code.
