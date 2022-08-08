@@ -81,6 +81,7 @@ This was created for all musice lovers to listen to music and share music. It's 
 The features on this application was created to provide users with options to view songs or add songs to the playlist.
 
 ### Existing Features
+
 #### Welcome
   - This is the introductory section that welcomes the user to the application. It provide them with information about the application and how to go about using it. It provides them the options to either view songs or add songs to the playlist.
 
@@ -115,13 +116,13 @@ The features on this application was created to provide users with options to vi
 
 ![Screenshot of Exit Message](assets/images/screenshot-of-exit-message.png)
 
-
 #### Google Worksheet
   - A cloud based google worksheet used to access data for the application.
 
 ![Screenshot of google worksheet](assets/images/screenshot-of-google-worksheet.png)
 
 ## Features Left To Implement
+
 - To add a function that actually plays the songs on the playlist when viewing the playlist.
 - To automatically update the playlist using a certified radio weekly chart so that new music are always added to it alongside with users submission.
 - To add multiple playlist of different genres for the user to choose from and add to it.
@@ -138,6 +139,7 @@ The features on this application was created to provide users with options to vi
  - [HTML5](https://en.wikipedia.org/wiki/HTML) - This was provided in the Code Institute template
 
 ### APIs and Libraries
+
  - [Google Drive](https://developers.google.com/drive/api)
  - [Google Worksheet](https://developers.google.com/sheets/api)
  - [Sys](https://docs.python.org/3/library/sys.html)
@@ -166,6 +168,7 @@ The features on this application was created to provide users with options to vi
 6. #### [Heroku](https://id.heroku.com/login)
   - Heroku was used to deploy the project to which users can access.
 
+
 ## Testing
 
 ### Manual Testing
@@ -186,6 +189,7 @@ The features on this application was created to provide users with options to vi
 
 ### Unfixed Bugs
 All bugs were fixed before the submission of this project.
+
 
 ## Deployment
 The open source developer environment used to write and edit code was Gitpod. Git was used to add, commit and push code to Github. Github is the hosting used to store pushed codes by Git. Heroku was used to deploy the live version of the project.
@@ -209,8 +213,11 @@ The open source developer environment used to write and edit code was Gitpod. Gi
   - To deploy manually, click the "Deploy Branch" button. 
   - Finally, you'll see "Your app was successfully deployed" pop up message with a "View" button to access the deployed application. 
 
+Find My Deployed Application [Here](https://p3-music-playlist.herokuapp.com/)
+
 
 ## Credits
+
 ### Code
 - [Grepper](https://www.codegrepper.com/index.php)
   - Used to help write expressions.
@@ -228,6 +235,7 @@ The open source developer environment used to write and edit code was Gitpod. Gi
 
 ### Media
 - All the songs on the music playlist was taken from my personal playlist.
+
 
 ### Acknowledgments
 - #### Mentor
