@@ -10,20 +10,20 @@ Music Playlist has been created for users to view and add songs to the playlist 
 
 
 ## Contents
-- [User Experience (UX)](#User-Experience-UX)
+- [User Experience (UX)](#User-Experience-(UX))
    - [Aim](#Aim)
    - [Target Audience](#Target-Audience)
    - [User Stories](#User-Stories)
-      - [First Time Users](#First-Time-User)
-      - [Revisiting Users](#Revisiting-User)
+      - [First Time Users](#First-Time-Users)
+      - [Revisiting Users](#Revisiting-Users)
 
 - [Design](#Design)
 
 - [Features](#Features)
    - [Existing Features](#Existing-Features)
-      - [Welcome](#Welcome-Section)
-      - [View Songs On Playlist](#View-Songs-On-Playlist-Section)
-      - [Submit Songs To Playlist](#Submit-Songs-Section)
+      - [Welcome](#Welcome)
+      - [View Songs On Playlist](#View-Songs-On-Playlist)
+      - [Submit Songs To Playlist](#Submit-Songs)
       - [Repeat Or Quit Application](#Repeat-Or-Quit-Application)
       - [Exit Message](#Exit-Message)
       - [Google Worksheet](#Google-Worksheet)
@@ -92,7 +92,7 @@ The features on this application was created to provide users with options to vi
 
 ![Screenshot to view playlist](assets/images/screenshot-to-view-playlist.png)
 
-#### Submit Songs To Playlist Section
+#### Submit Songs To Playlist
   - After user chooses to submit songs, they will then need to add additonal informatio to add song. 
   - User will need to input the artist name they would like to submit.
   - After inputting artist name, user will need to input the song name in order to submit the song to the playlist.
@@ -137,7 +137,7 @@ The features on this application was created to provide users with options to vi
  - [CSS](https://en.wikipedia.org/wiki/CSS) - This was provided in the Code Institute template.
  - [HTML5](https://en.wikipedia.org/wiki/HTML) - This was provided in the Code Institute template.
 
-### APIs and Libraries
+### APIs and Libraries Used
 
  - [Google Drive](https://developers.google.com/drive/api)
  - [Google Worksheet](https://developers.google.com/sheets/api)
@@ -149,7 +149,7 @@ The features on this application was created to provide users with options to vi
 
  ### Frameworks, Libraries And Programs Used
 
-1. #### [Lucid:](https://lucid.co/)
+1. #### [Lucid Chart:](https://lucid.co/)
   - Lucid Chart was used to create the flow and the logic of the application before coding it.
 
 2. #### [Git:](https://git-scm.com/)
