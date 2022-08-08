@@ -6,7 +6,7 @@ from tabulate import tabulate
 import gspread
 from google.oauth2.service_account import Credentials
 import colorama
-from colorama import Fore, Back, Style
+from colorama import Fore, Style
 colorama.init(autoreset=True)
 
 SCOPE = [
@@ -26,16 +26,16 @@ def music_playlist_welcome():
     Introducing and informing the user about
     the application.
     """
-    print(Back.YELLOW + Fore.WHITE + 'WELCOME MUSIC LOVERS!')
-    print(Back.YELLOW + Fore.WHITE + 'TO THE BEST "MUSIC PLAYLIST" EVER!\n')
+    print(Fore.CYAN + 'WELCOME MUSIC LOVERS!')
+    print(Fore.CYAN + 'TO THE BEST "MUSIC PLAYLIST" EVER!\n')
     print(Fore.GREEN + Style.BRIGHT + 'Listening to music is life.')
     print(Fore.GREEN + Style.BRIGHT + 'Use this playlist to check out songs')
     print(Fore.GREEN + Style.BRIGHT + 'and add your own songs.\n')
 
-    print(Fore.CYAN + "Please select option '1' if you would like to\n")
-    print(Fore.CYAN + "view the music playlist\n")
-    print(Fore.MAGENTA + "Please select option '2' if you would like to")
-    print(Fore.MAGENTA + "enter in a new song to the playlist.\n")
+    print("Please select option '1' if you would like to\n")
+    print("view the music playlist\n")
+    print("Please select option '2' if you would like to")
+    print("enter in a new song to the playlist.\n")
 
     return view_or_add()
 
@@ -45,7 +45,7 @@ def view_or_add():
     The route the user takes to either view songs from the playlist or
     add songs to the playlist.
     """
-    route = input("Please choose either (1 to view) or (2 to submit)\n")
+    route = input(Fore.MAGENTA + "Please choose: 1 to view or 2 to submit\n")
 
     print("You selected: " + route)
     if route == "1":
@@ -53,7 +53,7 @@ def view_or_add():
     elif route == "2":
         submit_song()
     else:
-        print(Back.RED + Fore.WHITE + "\nIncorrect value. Must be 1 or 2.\n")
+        print(Fore.WHITE + "\nIncorrect value. Must be 1 or 2.\n")
         return view_or_add()
 
 
@@ -73,15 +73,15 @@ def quit_or_repeat():
     print("Please select '1' if you would like to go back to main menu\n")
     print("Or '2' if you would like to quit\n")
 
-    route = input("Please choose either (1 to repeat) or (2 to quit)\n")
+    route = input(Fore.MAGENTA + "Please choose: 1 to repeat or 2 to quit\n")
 
     print("You selected: " + route)
     if route == "1":
         music_playlist_welcome()
     elif route == "2":
-        sys.exit(Back.RED + Fore.WHITE + "\nThank you for stopping by!\n")
+        sys.exit(Fore.RED + Style.BRIGHT + "\nThank you for stopping by!\n")
     else:
-        print(Back.RED + Fore.WHITE + "\nIncorrect value. Must be 1 or 2.\n")
+        print(Fore.WHITE + "\nIncorrect value. Must be 1 or 2.\n")
         return quit_or_repeat()
 
 
@@ -114,7 +114,7 @@ def submit_song():
 
     print(Fore.WHITE + "Updating playlist now.....\n")
 
-    print(Back.YELLOW + Fore.WHITE + "Playlist has been updated!\n")
+    print(Fore.YELLOW + Style.BRIGHT + "Playlist has been updated!\n")
     return quit_or_repeat()
 
 
