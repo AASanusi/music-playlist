@@ -85,7 +85,7 @@ The features on this application was created to provide users with options to vi
 #### Welcome
   - This is the introductory section that welcomes the user to the application. It provide them with information about the application and how to go about using it. It provides them the options to either view songs or add songs to the playlist.
 
-![Screenshot of welcome info of app](assets/images/screenshot-of-welcome-info-of-app.png)
+![Screenshot of welcome info of app](assets/images/screenshot-of-welcome-info-to-app.png)
 
 #### View Songs On Playlist  
   - This is the section where user chooses to view the songs on the playlist. This section showcases all the songs on the playlist for users to copy.
@@ -109,7 +109,7 @@ The features on this application was created to provide users with options to vi
   - Once the user has either viewed or added songs to the playlist, they are prompted to either repeat or quit the program.
   - This gives the user the option to either start again from the main menu or to quit the program.
 
-![Screenshot to repeat or quit application](assets/images/screenshot-to-repeat%20or%20quit-application.png)
+![Screenshot to repeat or quit application](assets/images/screenshot-to-repeat-or-quit-application.png)
 
 #### Exit Message
   - This is the exit message that comes up when user decides to quit the application.
