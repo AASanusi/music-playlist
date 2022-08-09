@@ -2,7 +2,7 @@
 
 ## Overview
 A playlist is a list of songs or pieces of music. It's a word that started out in radio stations - the 'playlist' was all the tracks that were to be played that day on the show. A playlist can be unique to you with all your favourite songs and can be shared with people.
-Music Playlist has been created for users to view and add songs to the playlist everytime they access the app. This playlist consists of songs already ready to be viewed. The users will have an option to view any new songs added to the playlist. Another route they can take is to add songs to the playlist and make it an ever-growing list of songs. 
+Music Playlist has been created for users to view and add songs to the playlist everytime they access the application. This playlist consists of songs that are ready to be viewed by the users. The users will have an option to view any new songs added to the playlist. They will also have the option to add songs to the playlist and make it an ever-growing list of songs. 
 
 ![Screenshot of app responsiveness](assets/images/screenshot-of-app-responsiveness.png)
 
@@ -57,16 +57,18 @@ Music Playlist has been created for users to view and add songs to the playlist 
 ## User Experience (UX)
 
 ### Aim
-The aim of this application is to provide users with a list of songs and to have the option to add to their own songs to the playlist.
+The aim of this application is to provide the users with a music playlist that can be viewed and updated.
 
 ### Target Audience
-This was created for all music lovers who would like to discover new songs and contribute in sharing their favourite songs to the playlist for others to access and discover it.
+This was created for all music lovers who would like to discover new songs and contribute to the playlist for others to access.
 ### User Stories
 
 - #### First Time Users
+  - As a first time user, I want to be able access the application.
+  - As a first time user, I would like information on how to navigate the application.
   - As a first time user, I want to be able to view songs on the playlist.
   - As a first time user, I want to be able to add songs on the playlist.
-  - As a first time user, I want to be able to go back to the main menu to revist the options.
+  - As a first time user, I want to be able to go back to the main menu and start again.
 
 - #### Revisiting Users
   - As a revisiting user, I want to be able view the updated songs on the playlist from the last time visited.
@@ -93,7 +95,7 @@ The features on this application was created to provide users with options to vi
 ![Screenshot to view playlist](assets/images/screenshot-to-view-playlist.png)
 
 #### Submit Songs To Playlist
-  - After user chooses to submit songs, they will then need to add additonal informatio to add song. 
+  - After user chooses to submit songs, they will then need to add additonal information to add song. 
   - User will need to input the artist name they would like to submit.
   - After inputting artist name, user will need to input the song name in order to submit the song to the playlist.
   - The user can go back to the main menu and view the song they've added to the playlist.
@@ -107,8 +109,7 @@ The features on this application was created to provide users with options to vi
 ![Screenshot of updated playlist](assets/images/screenshot-of-updated-playlist.png)
 
 #### Repeat Or Quit Application
-  - User are given the option to repeat or quit application after viewing or adding songs.
-  - This gives the user the option to either start again from the main menu or to quit the application.
+  - User will be given the option to repeat or quit application.
 
 ![Screenshot to repeat or quit application](assets/images/screenshot-to-repeat-or-quit-application.png)
 
@@ -126,6 +127,7 @@ The features on this application was created to provide users with options to vi
 
 - To add a function that actually plays the songs on the playlist when viewing the playlist.
 - To add multiple playlist of different genres for the user to choose from and add to it.
+- To add an option for the user to rate the songs in the playlist.
 
 
 ## Technologies Used
@@ -181,7 +183,7 @@ The features on this application was created to provide users with options to vi
 
 ### Bugs Encountered And Solutions:
  - #### Bugs
-   - Add issues pushing data to the google worksheet when submitting songs in application.
+   - Had issues pushing data to the google worksheet when submitting songs in application.
 
  - #### Solution
    - Had to change my code and re-do the google worksheet to allow data to be pushed to the worksheet.
@@ -193,7 +195,7 @@ All bugs were fixed before the submission of this project.
 ## Deployment
 The open source developer environment used to write and edit code was Gitpod. Git was used to add, commit and push code to Github. Github is the hosting used to store pushed codes by Git. Heroku was used to deploy the live version of the project.
 
-- Below are the steps followed to deploy site to Heroku:
+- Below are the steps followed to deploy project to Heroku:
   - Log in or Sign up to [Heroku.](https://id.heroku.com/login)
   - On dashboard, click "Create New App" or click the "New" dropdown menu on the top right of the page to access "Create New App"
   - On the "Create New App" page, name your app (needs to be a unique name), choose a region and click the "Create App" button.
@@ -205,7 +207,7 @@ The open source developer environment used to write and edit code was Gitpod. Gi
   - Redo the above step and add another buildpack, select "nodejs" and save changes. The order of the buildpacks should be python on top and then followed by nodejs underneath.
   - Scroll back up and locate the "Deploy" tab and select to access the page.
   - Once on the "Deploy" page, find "Deployment method" section, select "Github" and click the "Connect to Github" button.
-  - On "Connect to Github" section, search for your Github repository name you want to deploy by using the empty imput field provided and click "Search" to search for the repository name.
+  - On "Connect to Github" section, search for your Github repository name you want to deploy by using the empty input field provided and click "Search" to search for the repository name.
   - After clicking "Search", repository name should appear and then click "Connect" button beside it. Now everytime you push to Github, you will be able to deploy on Heroku.
   - Scroll down, to "Automatic deploys" and "Manual deploy" section. You can deploy via these two options.
   - You can set up "Automatic deploys" by clicking on "Enable Automatic Deploys"
