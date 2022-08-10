@@ -2,7 +2,7 @@
 
 ## Overview
 A playlist is a list of songs or pieces of music. It's a word that started out in radio stations - the 'playlist' was all the tracks that were to be played that day on the show. A playlist can be unique to you with all your favourite songs and can be shared with people.
-Music Playlist was created for users to view and add songs to the playlist everytime they access the application. This playlist consists of songs that are ready to be viewed by the users. The users will have an option to view any new songs added to the playlist. They will also have the option to add songs to the playlist and make it an ever-growing list of songs. 
+This Music Playlist application was created for users to view and add songs to the playlist everytime they access the application. This playlist consists of songs that are ready to be viewed by the users. The users will have an option to view any new songs added to the playlist. They will also have the option to add songs to the playlist and make it an ever-growing list of songs. 
 
 ![Screenshot of app responsiveness](assets/images/screenshot-of-app-responsiveness.png)
 
@@ -57,7 +57,7 @@ Music Playlist was created for users to view and add songs to the playlist every
 ## User Experience (UX)
 
 ### Aim
-The aim of this application is to provide the users with a music playlist that can be viewed and updated.
+The aim of this application is to provide users with a Music Playlist that can be viewed and updated.
 
 ### Target Audience
 This was created for all music lovers who would like to discover new songs and contribute to the playlist for others to access.
@@ -95,7 +95,7 @@ The features on this application was created to provide users with options to vi
 ![Screenshot to view playlist](assets/images/screenshot-to-view-playlist.png)
 
 #### Submit Songs To Playlist
-  - After user chooses to submit songs, they will then need to add additonal information to add song. 
+  - After user chooses to submit songs, they will then need to add additonal information to add the song. 
   - User will need to input the artist name they would like to submit.
   - After inputting artist name, user will need to input the song name in order to submit the song to the playlist.
   - The user can go back to the main menu and view the song they've added to the playlist.
@@ -126,7 +126,7 @@ The features on this application was created to provide users with options to vi
 ## Features Left To Implement
 
 - To add a function that actually plays the songs on the playlist when viewing the playlist.
-- To add multiple playlist of different genres for the user to choose from and add to it.
+- To add multiple playlist of different genres for the user to choose from and add to.
 - To add an option for the user to rate the songs in the playlist.
 
 
@@ -235,7 +235,7 @@ Find My Deployed Application [Here!](https://p3-music-playlist.herokuapp.com/)
 - [Code Institue](https://codeinstitute.net/) Love Sandwiches walkthrough video was used to understand how to deploy project to Heroku.
 
 ### Media
-- All the songs on the music playlist was taken from my personal playlist.
+- All the songs on the Music Playlist was taken from my personal playlist.
 
 
 ### Acknowledgments
