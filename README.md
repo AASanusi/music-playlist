@@ -2,7 +2,7 @@
 
 ## Overview
 A playlist is a list of songs or pieces of music. It's a word that started out in radio stations - the 'playlist' was all the tracks that were to be played that day on the show. A playlist can be unique to you with all your favourite songs and can be shared with people.
-Music Playlist has been created for users to view and add songs to the playlist everytime they access the application. This playlist consists of songs that are ready to be viewed by the users. The users will have an option to view any new songs added to the playlist. They will also have the option to add songs to the playlist and make it an ever-growing list of songs. 
+Music Playlist was created for users to view and add songs to the playlist everytime they access the application. This playlist consists of songs that are ready to be viewed by the users. The users will have an option to view any new songs added to the playlist. They will also have the option to add songs to the playlist and make it an ever-growing list of songs. 
 
 ![Screenshot of app responsiveness](assets/images/screenshot-of-app-responsiveness.png)
 
